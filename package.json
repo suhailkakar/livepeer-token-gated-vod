@@ -1,0 +1,38 @@
+{
+  "name": "livepeer-lit",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@lit-protocol/lit-node-client-nodejs": "^2.1.109",
+    "@lit-protocol/sdk-browser": "^1.1.243",
+    "@lit-protocol/sdk-nodejs": "^1.1.249",
+    "@livepeer/react": "2.5.0",
+    "@rainbow-me/rainbowkit": "^0.12.6",
+    "ethers": "^5.7.2",
+    "lit-js-sdk": "^1.1.243",
+    "lit-share-modal-v3": "^0.0.96",
+    "nanoid": "^4.0.2",
+    "next": "^13",
+    "next-transpile-modules": "^10.0.0",
+    "react": "^18.2",
+    "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.0",
+    "wagmi": "^0.12.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^8.28.0",
+    "eslint-config-next": "^13.0.4",
+    "postcss": "^8.4.20",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3"
+  }
+}

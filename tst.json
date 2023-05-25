@@ -1,0 +1,61 @@
+{
+	"type": "vod",
+	"meta": {
+		"playbackPolicy": {
+			"type": "lit_signing_condition",
+			"resourceId": {
+				"path": "/gate/5260hye5cs8ncfgn",
+				"role": "",
+				"orgId": "livepeer",
+				"baseUrl": "playback.livepeer.studio",
+				"extraData": "createdAt=1676313699434"
+			},
+			"unifiedAccessControlConditions": [
+				{
+					"chain": "solana",
+					"method": "",
+					"params": [
+						":userAddress"
+					],
+					"pdaKey": "",
+					"pdaParams": [],
+					"pdaInterface": {
+						"fields": {},
+						"offset": 0
+					},
+					"conditionType": "solRpc",
+					"returnValueTest": {
+						"key": "",
+						"value": "CuqjE9ortqZPA9B7ayCuineQbThM3D54XBVNpNGTQ5se",
+						"comparator": "="
+					}
+				}
+			]
+		},
+		"source": [
+			{
+				"hrn": "MP4",
+				"type": "html5/video/mp4",
+				"url": "https://pvt-asset-cdn.lp-playback.monster/hls/5260hye5cs8ncfgn/staticlow-bitrate.mp4",
+				"size": 430902,
+				"width": 360,
+				"height": 360,
+				"bitrate": 129014
+			},
+			{
+				"hrn": "MP4",
+				"type": "html5/video/mp4",
+				"url": "https://pvt-asset-cdn.lp-playback.monster/hls/5260hye5cs8ncfgn/static360p0.mp4",
+				"size": 676237,
+				"width": 360,
+				"height": 360,
+				"bitrate": 259859
+			},
+			{
+				"hrn": "HLS (TS)",
+				"type": "html5/application/vnd.apple.mpegurl",
+				"url": "https://pvt-asset-cdn.lp-playback.monster/hls/5260hye5cs8ncfgn/index.m3u8"
+			}
+		]
+	}
+}

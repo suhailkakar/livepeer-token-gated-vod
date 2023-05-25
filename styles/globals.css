@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MontHeavy";
+  src: url("../fonts/Mont-Heavy.otf");
+}
+
+textarea {
+  resize: none;
+}
+
+body {
+  background-color: #0f0f0f;
+}
