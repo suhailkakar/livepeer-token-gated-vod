@@ -12,7 +12,7 @@
     "@lit-protocol/lit-node-client-nodejs": "^2.1.109",
     "@lit-protocol/sdk-browser": "^1.1.243",
     "@lit-protocol/sdk-nodejs": "^1.1.249",
-    "@livepeer/react": "2.5.0",
+    "@livepeer/react": "^3.0.1",
     "@rainbow-me/rainbowkit": "^0.12.6",
     "ethers": "^5.7.2",
     "lit-js-sdk": "^1.1.243",

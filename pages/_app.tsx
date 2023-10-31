@@ -24,6 +24,7 @@ export default function App({ Component, pageProps }: AppProps) {
   const { connectors } = getDefaultWallets({
     appName: "Livepeer VOD Tokengated app",
     chains,
+    projectId: process.env.NEXT_PUBLIC_WALLET_CONNECT_PROJECT_ID as string,
   });
 
   const wagmiClient = createClient({
@@ -32,11 +33,11 @@ export default function App({ Component, pageProps }: AppProps) {
     provider,
   });
 
-  const key = process.env.NEXT_PUBLIC_LIVEPEER_STUDIO_KEY as string
+  const key = process.env.NEXT_PUBLIC_LIVEPEER_STUDIO_KEY as string;
 
   const client = createReactClient({
     provider: studioProvider({
-      apiKey: key
+      apiKey: key,
     }),
   });
   return (
